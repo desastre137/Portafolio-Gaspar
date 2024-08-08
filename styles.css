@@ -1,0 +1,39 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: var(--bg-color);
+        color: var(--text-color);
+    }
+
+    header {
+        background-color: var(--header-bg);
+        color: var(--header-text);
+        padding: 20px;
+        text-align: center;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    button {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    :root {
+        --bg-color: #ffffff;
+        --text-color: #000000;
+        --header-bg: #f4f4f4;
+        --header-text: #000000;
+    }
+
+    [data-theme="dark"] {
+        --bg-color: #121212;
+        --text-color: #ffffff;
+        --header-bg: #1e1e1e;
+        --header-text: #ffffff;
+    }
+    
